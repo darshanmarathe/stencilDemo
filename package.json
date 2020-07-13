@@ -1,0 +1,41 @@
+{
+  "name": "manotr-timeline",
+  "version": "0.0.1",
+  "description": "Stencil Component Starter",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "es2015": "dist/esm/index.mjs",
+  "es2017": "dist/esm/index.mjs",
+  "types": "dist/types/index.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "collection:main": "dist/collection/index.js",
+  "unpkg": "dist/manotr-timeline/manotr-timeline.js",
+  "files": [
+    "dist/",
+    "loader/"
+  ],
+  "scripts": {
+    "build": "stencil build --docs",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll",
+    "generate": "stencil generate"
+  },
+  "devDependencies": {
+    "@stencil/core": "^1.16.2",
+    "@types/jest": "26.0.4",
+    "@types/puppeteer": "3.0.1",
+    "jest": "26.1.0",
+    "jest-cli": "26.1.0",
+    "puppeteer": "5.0.0",
+    "rollup-plugin-node-polyfills": "^0.2.1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@amcharts/amcharts4": "^4.9.28",
+    "@types/amcharts": "^3.21.6",
+    "@types/core-js": "^2.5.3",
+    "core-js": "^3.6.5",
+    "rollup-plugin-commonjs": "^10.1.0"
+  }
+}

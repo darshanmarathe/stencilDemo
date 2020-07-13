@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "allowUnreachableCode": false,
+    "emitDecoratorMetadata": true,
+    "declaration": false,
+    "experimentalDecorators": true,
+    "lib": [
+      "dom",
+      "es2017",
+      "es5", 
+      "es2015.promise",
+       "es2015"
+    ],
+    "moduleResolution": "node",
+    "module": "esnext",
+    "target": "ES2017",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strictNullChecks": false,
+    "jsx": "react",
+    "jsxFactory": "h"
+  },
+  "include": [
+    "src",
+    "types/jsx.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
