@@ -32,7 +32,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@amcharts/amcharts4": "^4.9.28",
+    "@amcharts/amcharts4": "^4.10.28",
     "@types/amcharts": "^3.21.6",
     "@types/core-js": "^2.5.3",
     "core-js": "^3.6.5",
